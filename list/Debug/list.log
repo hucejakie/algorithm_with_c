@@ -1,4 +1,8 @@
 ﻿  main.c
-  list.c
-  Generating Code...
+d:\code\c\mastering_algorithms_with_c\list\main.c(7): warning C4101: 'element' : unreferenced local variable
+d:\code\c\mastering_algorithms_with_c\list\main.c(8): warning C4101: 'i' : unreferenced local variable
+d:\code\c\mastering_algorithms_with_c\list\main.c(8): warning C4101: 'data' : unreferenced local variable
+d:\code\c\mastering_algorithms_with_c\list\main.c(15): warning C4101: 'element' : unreferenced local variable
+d:\code\c\mastering_algorithms_with_c\list\main.c(16): warning C4101: 'i' : unreferenced local variable
+d:\code\c\mastering_algorithms_with_c\list\main.c(16): warning C4101: 'data' : unreferenced local variable
   list.vcxproj -> D:\Code\c\Mastering_Algorithms_with_c\Debug\list.exe
