@@ -16,6 +16,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "queue", "queue\queue.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "set", "set\set.vcxproj", "{21620156-9204-4DF1-B0F8-E0E8A7C97391}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chtbl", "chtbl\chtbl.vcxproj", "{D4CA90BA-7071-4B36-9BE9-2D2F276E7102}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -60,6 +62,12 @@ Global
 		{21620156-9204-4DF1-B0F8-E0E8A7C97391}.Release|Win32.ActiveCfg = Release|Win32
 		{21620156-9204-4DF1-B0F8-E0E8A7C97391}.Release|Win32.Build.0 = Release|Win32
 		{21620156-9204-4DF1-B0F8-E0E8A7C97391}.Release|x64.ActiveCfg = Release|Win32
+		{D4CA90BA-7071-4B36-9BE9-2D2F276E7102}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D4CA90BA-7071-4B36-9BE9-2D2F276E7102}.Debug|Win32.Build.0 = Debug|Win32
+		{D4CA90BA-7071-4B36-9BE9-2D2F276E7102}.Debug|x64.ActiveCfg = Debug|Win32
+		{D4CA90BA-7071-4B36-9BE9-2D2F276E7102}.Release|Win32.ActiveCfg = Release|Win32
+		{D4CA90BA-7071-4B36-9BE9-2D2F276E7102}.Release|Win32.Build.0 = Release|Win32
+		{D4CA90BA-7071-4B36-9BE9-2D2F276E7102}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
