@@ -1,11 +1,11 @@
-#ifndef CHTBL_H
+#ifndef CHTbl_H
 
-#define CHTBL_H
+#define CHTbl_H
 
 #include <stdlib.h>
 #include "list.h"
 
-typedef struct CHTBL_
+typedef struct CHTbl_
 {
 	int buckets;
 
@@ -15,22 +15,22 @@ typedef struct CHTBL_
 	int size;
 	List *table;
 
-}CHTBL;
+}CHTbl;
 
-int chtbl_init(CHTBL *htbl,int buckets,
+int CHTbl_init(CHTbl *htbl,int buckets,
 	int (*h)(const void *key),
 	int (*match)(const void *key1,const void *key2),
 	void (*destroy)(void *data));
 
-void chtbl_destroy(CHTBL *htbl);
+void CHTbl_destroy(CHTbl *htbl);
 
-int chtbl_insert(CHTBL *htbl,const void *data);
+int CHTbl_insert(CHTbl *htbl,const void *data);
 
-int chtbl_remove(CHTBL *htbl, void **data);
+int CHTbl_remove(CHTbl *htbl, void **data);
 
-int chtbl_lookup(CHTBL *htbl,void **data);
+int CHTbl_lookup(CHTbl *htbl,void **data);
 
-#define chtbl_size(htbl)((htbl)->size)
+#define CHTbl_size(htbl)((htbl)->size)
 
 
 #endif

@@ -66,6 +66,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\list\list.c" />
+    <ClCompile Include="chtbl.c" />
+    <ClCompile Include="main.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
