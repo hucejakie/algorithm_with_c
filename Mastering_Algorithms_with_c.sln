@@ -18,6 +18,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "set", "set\set.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chtbl", "chtbl\chtbl.vcxproj", "{D4CA90BA-7071-4B36-9BE9-2D2F276E7102}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ohtbl", "ohtbl\ohtbl.vcxproj", "{AC0CB3AF-4246-4774-BE60-A4807F2CF9DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -68,6 +70,12 @@ Global
 		{D4CA90BA-7071-4B36-9BE9-2D2F276E7102}.Release|Win32.ActiveCfg = Release|Win32
 		{D4CA90BA-7071-4B36-9BE9-2D2F276E7102}.Release|Win32.Build.0 = Release|Win32
 		{D4CA90BA-7071-4B36-9BE9-2D2F276E7102}.Release|x64.ActiveCfg = Release|Win32
+		{AC0CB3AF-4246-4774-BE60-A4807F2CF9DC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AC0CB3AF-4246-4774-BE60-A4807F2CF9DC}.Debug|Win32.Build.0 = Debug|Win32
+		{AC0CB3AF-4246-4774-BE60-A4807F2CF9DC}.Debug|x64.ActiveCfg = Debug|Win32
+		{AC0CB3AF-4246-4774-BE60-A4807F2CF9DC}.Release|Win32.ActiveCfg = Release|Win32
+		{AC0CB3AF-4246-4774-BE60-A4807F2CF9DC}.Release|Win32.Build.0 = Release|Win32
+		{AC0CB3AF-4246-4774-BE60-A4807F2CF9DC}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
