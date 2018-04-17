@@ -20,6 +20,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chtbl", "chtbl\chtbl.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ohtbl", "ohtbl\ohtbl.vcxproj", "{AC0CB3AF-4246-4774-BE60-A4807F2CF9DC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bitree", "bitree\bitree.vcxproj", "{D07E26DC-D569-47BF-95AE-22ED948F7637}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "practice", "practice\practice.vcxproj", "{668AB7BF-447B-4FC1-85C4-80D5C4AF3572}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -76,6 +80,18 @@ Global
 		{AC0CB3AF-4246-4774-BE60-A4807F2CF9DC}.Release|Win32.ActiveCfg = Release|Win32
 		{AC0CB3AF-4246-4774-BE60-A4807F2CF9DC}.Release|Win32.Build.0 = Release|Win32
 		{AC0CB3AF-4246-4774-BE60-A4807F2CF9DC}.Release|x64.ActiveCfg = Release|Win32
+		{D07E26DC-D569-47BF-95AE-22ED948F7637}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D07E26DC-D569-47BF-95AE-22ED948F7637}.Debug|Win32.Build.0 = Debug|Win32
+		{D07E26DC-D569-47BF-95AE-22ED948F7637}.Debug|x64.ActiveCfg = Debug|Win32
+		{D07E26DC-D569-47BF-95AE-22ED948F7637}.Release|Win32.ActiveCfg = Release|Win32
+		{D07E26DC-D569-47BF-95AE-22ED948F7637}.Release|Win32.Build.0 = Release|Win32
+		{D07E26DC-D569-47BF-95AE-22ED948F7637}.Release|x64.ActiveCfg = Release|Win32
+		{668AB7BF-447B-4FC1-85C4-80D5C4AF3572}.Debug|Win32.ActiveCfg = Debug|Win32
+		{668AB7BF-447B-4FC1-85C4-80D5C4AF3572}.Debug|Win32.Build.0 = Debug|Win32
+		{668AB7BF-447B-4FC1-85C4-80D5C4AF3572}.Debug|x64.ActiveCfg = Debug|Win32
+		{668AB7BF-447B-4FC1-85C4-80D5C4AF3572}.Release|Win32.ActiveCfg = Release|Win32
+		{668AB7BF-447B-4FC1-85C4-80D5C4AF3572}.Release|Win32.Build.0 = Release|Win32
+		{668AB7BF-447B-4FC1-85C4-80D5C4AF3572}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
